@@ -33,7 +33,7 @@ if(!isset($_SESSION['user_name'])){
       <a href="login_form.php" class="btn">login</a>
       <a href="register_form.php" class="btn">register</a>
       <a href="logout.php" class="btn">logout</a>
-      <a href="EduTime/index2.html" class="btn">Home</a>
+      <a href="../index.html" class="btn">Home</a>
    </div>
 
 </div>
