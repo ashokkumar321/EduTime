@@ -1,5 +1,5 @@
 <?php
 
-$conn = mysqli_connect('localhost','root','','userdb');
+$conn = mysqli_connect('localhost','root','pass123','userdb');
 
 ?>
