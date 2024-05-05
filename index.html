@@ -10,15 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script type="text/javascript" src="script.js"></script>
 	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
-	<script>
-		$(window).on('scroll', function(){
-  			if($(window).scrollTop()){
-  			  $('nav').addClass('black');
- 			 }else {
- 		   $('nav').removeClass('black');
- 		 }
-		})
-	</script>
+
 </head>
 <body>
 <!-- Navigation Bar -->
@@ -32,10 +24,10 @@
 				<li><a href="#services_section">Services</a></li>
 				<li><a href="#contactus_section">Contact</a></li>
 			</ul>
-			<a href="http://localhost/EduTime/EduTime/backend/register_form.php"><div class="srch"><input type="text" class="search" placeholder="Search here..."><img src="images/icon/search.png" alt="search" onclick=slide()></div>
+			<a href="backend/register_form.php"><div class="srch"><input type="text" class="search" placeholder="Search here..."><img src="images/icon/search.png" alt="search" onclick=slide()></div>
 			</a>
-			<a class="get-started" href="http://localhost/EduTime/EduTime/backend/login_form.php">Login</a>
-			<a class="get-started" href="http://localhost/EduTime/EduTime/backend/register_form.php">Register</a>
+			<a class="get-started" href="backend/login_form.php">Login</a>
+			<a class="get-started" href="backend/register_form.php">Register</a>
 			<img src="images/icon/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
 		</nav>
 		<div class="head-container">
@@ -43,7 +35,7 @@
 				<p>The beautiful thing about learning is that nobody can take it away from you</p>
 				<h5>Education is the process of facilitating learning, or the acquisition of knowledge, skills, values, beliefs, and habits. Educational methods include teaching, training, storytelling, discussion and directed research!</h5>
 				<div class="play">
-					<img src="images/icon/play.png" alt="play"><span><a href="http://localhost/EduTime/EduTime/backend/register_form.php" target="_blank">Watch Now</a></span>
+					<img src="images/icon/play.png" alt="play"><span><a href="backend/register_form.php" target="_blank">Watch Now</a></span>
 				</div>
 			</div>
 			<div class="svg-image">
@@ -56,8 +48,8 @@
 
 			</div>
 			<ul>
-				<li><a class="active" href="http://localhost/EduTime/EduTime/backend/login_form.php">Login</a></li>
-				<li><a href="http://localhost/EduTime/EduTime/backend/register_form.php">Register</a></li>
+				<li><a class="active" href="backend/login_form.php">Login</a></li>
+				<li><a href="backend/register_form.php">Register</a></li>
 				<li><a href="#about_section">About</a></li>
 				<li><a href="#portfolio_section">Portfolio</a></li>
 				<li><a href="#team_section">Team</a></li>
@@ -71,15 +63,15 @@
 
 <!-- Some Popular Subjects -->
 	<div class="title">
-		<span>Popular Subjects on LearnEd</span>
+		<span>Popular Subjects on EduTime</span>
 	</div>
 	<br><br>
 	<div class="course">
 		<div class="cbox">
-		<div class="det"><a href="http://localhost/EduTime/EduTime/backend/register_form.php"><img src="images/courses/computer.png">Computer Courses</a></div>
-		<div class="det"><a href="http://localhost/EduTime/EduTime/backend/register_form.php"><img src="images/courses/data.png">Data Structures</a></div>
-		<div class="det"><a href="http://localhost/EduTime/EduTime/backend/register_form.php"><img src="images/courses/algo.png">Algorithm</a></div>
-		<div class="det det-last"><a href="http://localhost/EduTime/EduTime/backend/register_form.php"><img src="images/courses/projects.png">Projects</a></div>
+		<div class="det"><a href="backend/register_form.php"><img src="images/courses/computer.png">Computer Courses</a></div>
+		<div class="det"><a href="backend/register_form.php"><img src="images/courses/data.png">Data Structures</a></div>
+		<div class="det"><a href="backend/register_form.php"><img src="images/courses/algo.png">Algorithm</a></div>
+		<div class="det det-last"><a href="backend/register_form.php"><img src="images/courses/projects.png">Projects</a></div>
 		</div>
 	</div>
 
@@ -152,11 +144,11 @@
 		<div class="diffSection" id="services_section">
 		<center><p style="font-size: 50px; padding: 100px; padding-bottom: 40px; color: #fff;">Services</p></center>
 		</div>
-		<a href="http://localhost/EduTime/EduTime/backend/register_form.php"><div class="s-card"><img src="images/icon/computer-courses.png"><p>Free Online Computer Courses</p></div></a>
+		<a href="backend/register_form.php"><div class="s-card"><img src="images/icon/computer-courses.png"><p>Free Online Computer Courses</p></div></a>
 		<a href="#"><div class="s-card"><img src="images/icon/online-tutorials.png"><p>Online Video Lectures</p></div></a>
 		<a href="#"><div class="s-card"><img src="images/icon/p3.png"><p>Performance and Ranking Report</p></div></a>
 		<a href="#contactus_section"><div class="s-card"><img src="images/icon/discussion.png"><p>Discussion with Our Tutors & Mentors</p></div></a>
-		<a href="http://localhost/EduTime/EduTime/backend/register_form.php"><div class="s-card"><img src="images/icon/q1.png"><p>Daily Brain Teasing Questions to Improve IQ</p></div></a>
+		<a href="backend/register_form.php"><div class="s-card"><img src="images/icon/q1.png"><p>Daily Brain Teasing Questions to Improve IQ</p></div></a>
 		<a href="#contactus_section"><div class="s-card"><img src="images/icon/help.png"><p>24x7 Online Support</p></div></a>
 	</div>
 
@@ -264,7 +256,6 @@
 					<a href="https://www.instagram.com/i_m_mortalll/"><img src="images/icon\ytube.png"></a>
 					<a href="https://www.linkedin.com/in/themurugesan/"><img src="images/icon\linkedin.png"></a>
 				</div><br><br>
-				<p class="rights-text">Copyright © 2024 Created By Muthu All Rights Reserved.</p>
 				<br><p><img src="images/icon/location.png">Unnamalai Institute of Technology <br>Kovilpatti-628502</p><br>
 				<p><img src="images/icon/phone.png"> +91 6385823340<br><img src="images/icon/mail.png">&nbsp; edutime7x24@gmail.com</p>
 			</div>
@@ -279,6 +270,23 @@
 			</div>
 		</div>
 	</footer>
-
+	<script>
+window.embeddedChatbotConfig = {
+chatbotId: "bfCOpqNOgnoFk-5qce1wc",
+domain: "www.chatbase.co"
+}
+</script>
+<script
+src="https://www.chatbase.co/embed.min.js"
+chatbotId="bfCOpqNOgnoFk-5qce1wc"
+domain="www.chatbase.co"
+defer>
+</script>
+<script
+src="https://www.chatbase.co/embed.min.js"
+chatbotId="0n8EG0B8FvLwtvFQXaxL3"
+domain="www.chatbase.co"
+defer>
+</script>
 </body>
 </html>
